@@ -20,6 +20,12 @@ main {
 .content {
     display: flex;
     width: 100%;
+    display: flex;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
 }
 
 .text {
