@@ -5,10 +5,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('background-image.jpg');
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* background-color: #f4f4f4; */
 }
 
 header {
@@ -36,6 +33,8 @@ nav a {
 section {
     padding: 2em;
 }
+
+
 
 footer {
     background-color: #1800FF;
