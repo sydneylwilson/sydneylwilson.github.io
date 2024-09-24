@@ -5,16 +5,35 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color:rgb(142, 128, 156);
     color: white;
-    text-align: center;
-    padding: 10px 0;
+    text-align: left;
+    padding: 10px;
+}
+
+.name-header {
+    font-size: small;
+}
+
+.subtitle-header {
+    font-size: smaller;
+}
+
+.header-links {
+    font-size: smaller;
+    color:white;
+}
+
+.home-icon {
+    height: 3%;
 }
 
 main {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin: 0px;
+    height: 100vh;
 }
 
 .content {
@@ -25,20 +44,46 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: -20px;
     padding: 50px;
+}
+
+.picture-o-me {
+    width: auto;
+    height: 40%;
+}
+
+.profile-img {
+    display: flex;
+    justify-content: right;
 }
 
 .text {
     flex: 1;
     padding-right: 20px;
+    color:cornflowerblue;
+}
+
+.link-list {
+    list-style: none;
 }
 
 .links {
     flex: 1;
+    color: cornflowerblue;
+    text-decoration: none;
 }
 
 .links h3 {
     margin-top: 0;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer {
@@ -46,4 +91,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+.contact-page {
+    background-image: url('contact-page-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -20px;
+    padding: 50px;
 }
